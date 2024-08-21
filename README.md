@@ -24,6 +24,7 @@ Developed by: ALIYA SHEEMA
 RegisterNumber: 212223230011 
 */
 ```
+```
 import numpy as np
 import matplotlib.pyplot as plt
 x=np.array(eval(input("Enter x values:")))
@@ -43,7 +44,7 @@ print("Y predicted:",Ypred)
 plt.scatter(x,y)
 plt.plot(x,Ypred,color='yellow')
 plt.show()
-
+```
 
 ## Output :
 
